@@ -1,0 +1,413 @@
+html {
+	min-height: 100%;
+	position: relative;
+}
+body{
+	
+	overflow-x: hidden; 
+	margin: 0;
+	margin-bottom: 40px;
+}
+
+.Titulo1{
+	font-family: 'Bebas Neue', cursive;
+	width:100%;
+	height:100px;
+	background-color:#93BBBF;
+	margin:auto;
+	text-align: center;
+	font-size: 85px;
+	color: #000;
+}
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
+
+.ImgDiv1{
+	width:50%;
+	float:right;
+	margin: 5px;
+	border-radius: 20px;
+}
+div p{
+	margin: 5px 0px 5px 5px;
+}
+
+.Nav1{
+	width: 100%;
+	height: 40px;
+	background-color: rgb(14, 109, 109);
+	border: 3px outset rgb(8, 49, 49);
+	box-sizing: border-box;
+	padding-top: 4px;
+}
+
+.NavLink1{
+	font-size: 20px;
+	color: #000;
+	padding-left: 18%;
+}
+
+.NavLink2{
+	font-size: 20px;
+	color: #000;
+	padding-left: 22%;
+}
+
+.NavLink3{
+	font-size: 20px;
+	color: #000;
+	padding-left: 20%;
+}
+
+.Quote{
+width: 100%;
+height: 200px;
+background-color: #000;
+color: white;
+text-align:center;
+padding-right: 100px;
+font-family: 'Dancing Script', cursive;
+margin: auto;
+margin-top: 10px;
+float: right;
+}
+.ImgQuote{
+	float: left;
+}
+div h1{
+	padding-top: 50px;
+}
+
+.Sporting1{
+	margin-left: 675px;
+}
+.Sporting{
+	vertical-align: middle;
+	height: 7.5%;
+	width: 7.5%;
+}
+.Sporting2{
+	vertical-align: middle;
+	display: inline;
+	font-size: 60px;
+	color: #000;
+	padding-left: 25px
+}
+
+.Man1{
+	margin-left: 650px;
+}
+.Man{
+	height: 10%;
+	width: 10%;
+	vertical-align: middle;
+}
+.Man2{
+	vertical-align: middle;
+	display: inline;
+	font-size: 60px;
+	color: #000;
+	margin-left: 0;
+}
+
+
+.Madrid1{
+	margin-left: 650px;
+}
+
+.Madrid{
+	height: 10%;
+	width: 10%;
+	vertical-align: middle;
+}
+
+.Madrid2{
+	vertical-align: middle;
+	display: inline;
+	font-size: 60px;
+	color: #000;
+	margin-left: 0;
+}
+
+.Juve1{
+	margin-left: 630px;
+}
+.Juve{
+	height: 12%;
+	width: 12%;
+	vertical-align: middle;
+}
+.Juve2{
+	vertical-align: middle;
+	display: inline;
+	font-size: 60px;
+	color: #000;
+	margin-left: 0;
+}
+
+.Al1{
+	margin-left: 650px;
+}
+.Al{
+	height: 10%;
+	width: 10%;
+	vertical-align: middle;
+}
+
+.Al2{
+	vertical-align: middle;
+	display: inline;
+	font-size: 60px;
+	color: #164181;
+	margin-left: 10px;
+}
+
+
+footer{
+    width: 100%;
+    padding: 50px 0px;
+    background-color: #00c9fc25;
+    background-size: cover;
+}
+
+.container__footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.box__footer{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.box__footer .terms{
+    max-width: 350px;
+    margin-top: 20px;
+    font-weight: 500;
+    color: #7a7a7a;
+    font-size: 18px;
+}
+
+.box__footer h2{
+    margin-bottom: 30px;
+    color: #343434;
+    font-weight: 500;
+}
+
+.box__footer a{
+    margin-top: 10px;
+    color: #7a7a7a;
+    font-weight:500;
+}
+
+.box__footer a:hover{
+    opacity: 0.8;
+}
+
+.box__footer a .fab{
+    font-size: 20px;
+}
+
+.box__copyright{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0px 40px;
+}
+
+.box__copyright p{
+    margin-top: 20px;
+    color: #7a7a7a;
+}
+
+.box__copyright hr{
+    border: none;
+    height: 1px;
+    background-color: #7a7a7a;
+}
+
+.Bib{
+	padding-top: 0;
+	width: 100%;
+	height: fit-content;
+	background-color: #00c9fc25;
+
+}
+
+.Bibh1{
+	margin: 0;
+	text-align: center;
+	font-size: 40px;
+	color: #000000;
+	padding-bottom: 40px;
+	font-family: 'Castoro Titling', cursive;
+}
+.Bibp{
+	
+	font-size: 22px;
+	line-height: 35px;
+	padding-left: 20px;
+	padding-right: 10px;
+	text-align: justify;
+}
+.ImgDiv2{
+	width:500px;
+	height: 600px;
+	float:right;
+	margin: 5px;
+	border: #000 10px;
+	border-radius: 10px;
+	padding-left: 10px;
+}
+p b {
+	text-decoration: underline;
+}
+.DivArtCont{
+	display: flex;
+	align-items: center;
+
+}
+.Fuente{
+	font-size: 20px;
+	text-align: center;
+}
+.DivArt{
+	display: inline-block;
+	height: 300px;
+	width: 20%;
+	background-color: #076279;
+	margin-left: 10%;
+}
+.H2Art{
+	text-align: center;
+}
+.DivArt a:hover{
+	color: #ffff;
+}
+.DivArt a{
+	color: #ffffffc0;
+}
+.Mid{
+	display: block;
+	width: 150px;
+	height: 150px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+
+.Merch{
+	background-color: #a4d2dd;
+}
+.MerchH1{
+	text-align: center;
+	font-family: 'Castoro Titling', cursive;
+	font-weight: 900;
+	font-size: 60px;
+}
+
+
+.container-items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.item{
+    border-radius: 10px;
+}
+
+.item:hover{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
+}
+
+.item img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    transition: all .5s;
+}
+
+.item figure{
+    overflow: hidden;
+}
+
+.item:hover img{
+    transform: scale(1.2);
+}
+
+.info-product{
+    padding: 15px 30px;
+    line-height: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.price{
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.info-product button{
+	text-align: center;
+    border: none;
+    background: none;
+    background-color: #000;
+    color: #fff;
+    padding: 15px 10px;
+    cursor: pointer;
+	width: 100%;
+}
+
+.FootMerch{
+	background-color: #a4d2dd;
+	padding-top: 40px;
+}
+.HrM{
+	border: none;
+    height: 1px;
+    background-color: #7a7a7a;
+}
+.BodyHigh{
+	background-color: #000;
+}
+
+.CarH1{
+	font-family: 'Castoro Titling', cursive;
+	color: #ffffff;
+	text-shadow: 0 0 0.2em #87F, 0 0 0.2em #87F,0 0 0.2em #87F;
+	text-align: center;
+	font-size: 50px;
+	text-decoration: underline;
+}
+
+.Vid1{
+	text-align: center;
+	margin: 10px;
+	height: 700px;
+}
+
+.Vid1 iframe{
+	width: 80%;
+	height: 100%;
+}
+
+.CarFoot{
+	margin-top: 80px;
+}
+
+.CarFoot h2{
+	margin-bottom: 30px;
+    color: #ffffffaf;
+    font-weight: 500;
+}
